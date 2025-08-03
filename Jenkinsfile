@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/YOUR_USERNAME/hello-jenkins.git'
+        git 'https://github.com/Chocomimin/hello-jenkins'
       }
     }
     stage('Install') {
