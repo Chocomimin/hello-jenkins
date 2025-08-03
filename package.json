@@ -1,0 +1,21 @@
+{
+    "name": "hello-jenkins",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "mocha"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "chai": "^5.2.1",
+        "chai-http": "^5.1.2",
+        "mocha": "^11.7.1"
+    }
+}
